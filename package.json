@@ -18,5 +18,11 @@
   "homepage": "https://github.com/wham-js/web-audio-synth-template#readme",
   "devDependencies": {
     "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "@coleww/openmusic-sample-player": "^1.0.2",
+    "load-sample-2-buff": "^1.0.1",
+    "make-distortion-curve": "^1.0.0",
+    "openmusic-oscillator": "^1.3.0"
   }
 }
