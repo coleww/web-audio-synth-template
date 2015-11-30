@@ -1,21 +1,10 @@
 {
-  "name": "web-audio-synth-template",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "build": "browserify demo.js -o bundle.js",
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wham-js/web-audio-synth-template.git"
-  },
-  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wham-js/web-audio-synth-template/issues"
-  },
-  "homepage": "https://github.com/wham-js/web-audio-synth-template#readme",
   "devDependencies": {
     "tape": "^4.2.2"
   },
