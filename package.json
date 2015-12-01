@@ -3,7 +3,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "build": "browserify demo.js -o bundle.js",
+    "build": "browserify demo.js -o bundle.js"
   },
   "devDependencies": {
     "tape": "^4.2.2"
