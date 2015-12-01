@@ -6,7 +6,8 @@
     "build": "browserify demo.js -o bundle.js"
   },
   "devDependencies": {
-    "tape": "^4.2.2"
+    "tape": "^4.2.2",
+    "web-audio-mock": "^0.1.9"
   },
   "dependencies": {
     "@coleww/openmusic-sample-player": "^1.0.2",
