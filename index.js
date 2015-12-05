@@ -1,13 +1,12 @@
-var oscillator = require('openmusic-oscillator')
+
 
 // yr function should accept an audioContext, and optional params/opts
 module.exports = function (ac, opts) {
   // make some audioNodes, connect them, store them on the object
-  var audioNodes = {}
+  var audioNodes = {
+    source: ac.createOscillator()
+  }
 
-  var oscillator = oscillator(ac)
-
-  audioNodes.source = oscillator
   // ...
 
   return {
